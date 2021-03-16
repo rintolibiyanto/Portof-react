@@ -4,6 +4,8 @@ import Hero from "./Components/Hero";
 import PortfolioList from "./Components/PortofolioList";
 import About from "./Components/About";
 import Contact from "./Components/Contact";
+import Advice from "./Components/Advice";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <PortfolioList />
       <About />
       <Contact />
+      <Advice />
+      <Footer />
     </div>
   );
 }
